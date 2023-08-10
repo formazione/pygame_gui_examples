@@ -90,7 +90,7 @@ class MiniGamesApp:
             self.ui_manager.draw_ui(self.root_window_surface)
 
             pygame.display.update()
-
+        pygame.quit() # this will close the main window
 
 if __name__ == '__main__':
     app = MiniGamesApp()
